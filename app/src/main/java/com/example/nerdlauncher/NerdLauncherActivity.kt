@@ -19,6 +19,7 @@ class NerdLauncherActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.d(TAG, "你好你好你好啊！")
+        
 
 // 4，特别重要：该方法返回的是一个新对象，还是对某个对象的引用？
         recyclerView = findViewById(R.id.app_recycler_view)
