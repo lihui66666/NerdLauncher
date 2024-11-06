@@ -20,6 +20,7 @@ class NerdLauncherActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Log.d(TAG, "你好你好你好啊！")
 
         Log.d(TAG, "onCreate")
 
