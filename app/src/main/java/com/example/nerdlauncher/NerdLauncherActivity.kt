@@ -20,6 +20,7 @@ class NerdLauncherActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.d(TAG, "你好你好你好啊！")
+
         Log.d(TAG, "onCreate")
         Log.d(TAG, "PC版豆包失灵")
 
