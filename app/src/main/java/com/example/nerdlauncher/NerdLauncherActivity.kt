@@ -13,7 +13,6 @@ private const val TAG = "NerdLauncherActivity"
 // 如果后者括号内有参数，就是指，调用其那个有参数的构造函数
 class NerdLauncherActivity : AppCompatActivity() {
 
-
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: ActivityAdapter
 // 从父类继承的方法（有些可覆盖）
@@ -21,8 +20,10 @@ class NerdLauncherActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.d(TAG, "你好你好你好啊！")
-
         Log.d(TAG, "onCreate")
+        Log.d(TAG, "PC版豆包失灵")
+
+// 1，Activity是Context抽象类类的一个间接子类。
 
 // 4，特别重要：该方法返回的是一个新对象，还是对某个对象的引用？
         recyclerView = findViewById(R.id.app_recycler_view)
