@@ -12,6 +12,7 @@ private const val TAG = "NerdLauncherActivity"
 // 后面小括号的意思是，调用父类中那个无参数的构造函数
 // 如果后者括号内有参数，就是指，调用其那个有参数的构造函数
 class NerdLauncherActivity : AppCompatActivity() {
+    val TAG = "NerdLauncherActivity"
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: ActivityAdapter
